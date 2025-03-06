@@ -4,7 +4,7 @@ import { motion } from 'framer-motion';
 function Hobby() {
   return (
     <div
-      className="flex items-center justify-center h-screen bg-cover bg-center"
+      className="flex items-center justify-center h-screen bg-cover bg-center bg-black"
       style={{ backgroundImage: "url('/src/image/home bg.png')" }}
     >
       <motion.div

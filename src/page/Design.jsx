@@ -37,7 +37,7 @@ function Design() {
 
   return (
     <div
-      className="flex flex-col items-center justify-center h-screen bg-cover bg-center p-8"
+      className="flex flex-col items-center justify-center h-screen bg-cover bg-center p-8 bg-black"
       style={{ backgroundImage: "url('/src/image/home bg.png')" }}
     >
 

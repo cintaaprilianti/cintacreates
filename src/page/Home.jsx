@@ -6,7 +6,7 @@ import { motion } from "framer-motion";
 function Home() {
   return (
     <div
-      className="flex flex-row items-center justify-between h-screen px-20 bg-cover bg-center"
+      className="flex flex-row items-center justify-between h-screen px-20 bg-cover bg-center bg-black"
       style={{ backgroundImage: "url('/src/image/home bg.png')" }}
     >
 

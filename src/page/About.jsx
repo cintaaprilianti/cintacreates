@@ -4,7 +4,7 @@ import { motion } from 'framer-motion';
 function About() {
   return (
     <div
-      className="flex flex-col md:flex-row items-center justify-center h-screen bg-cover bg-center"
+      className="flex flex-col md:flex-row items-center justify-center h-screen bg-cover bg-center bg-black"
       style={{ backgroundImage: "url('/src/image/home bg.png')" }}
     >
 
