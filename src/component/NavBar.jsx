@@ -24,7 +24,7 @@ function NavBar() {
             <div className="hidden sm:flex items-center justify-between w-full px-4">
                 <div className="flex items-center">
                     <img 
-                        src=".\src\image\logo baru.jpg"
+                        src="/logo baru.jpg"
                         alt="Logo" 
                         className="h-10 w-10 border-2 border-white rounded-full mr-4" 
                     />

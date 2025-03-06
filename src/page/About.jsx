@@ -4,8 +4,8 @@ import { motion } from 'framer-motion';
 function About() {
   return (
     <div
-      className="flex flex-col md:flex-row items-center justify-center h-screen bg-cover bg-center bg-black"
-      style={{ backgroundImage: "url('/src/image/home bg.png')" }}
+      className="flex flex-col md:flex-row items-center justify-center w-full px-6 md:px-20 h-screen bg-cover bg-center bg-black"
+      style={{ backgroundImage: "url('home bg.png')" }}
     >
 
       <motion.div
@@ -15,7 +15,7 @@ function About() {
         transition={{ duration: 1, ease: "easeOut" }}
       >
         <img
-          src="/src/image/myself.png"
+          src="myself.png"
           alt="My Pic"
           className="h-80 w-80 md:h-130 md:w-80 object-cover rounded-lg shadow-lg"
         />

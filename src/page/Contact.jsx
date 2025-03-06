@@ -26,7 +26,7 @@ function Contact() {
   return (
     <div
       className="flex flex-col items-center justify-center min-h-screen bg-cover bg-center p-6 bg-black"
-      style={{ backgroundImage: "url('/src/image/home bg.png')" }}
+      style={{ backgroundImage: "url('home bg.png')" }}
     >
       <motion.div
         className="p-6 w-full max-w-md bg-gray-700 shadow-lg rounded-lg"
